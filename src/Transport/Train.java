@@ -74,4 +74,8 @@ private int numbersWagon;
                 ", конечная станция ='" + endingStation + '\'' +
                 ", количество вагонов =" + numbersWagon;
     }
+    @Override
+    public void refill() {
+        System.out.println("Заправлять дизелем");
+    }
 }

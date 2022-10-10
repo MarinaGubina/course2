@@ -172,5 +172,9 @@ public class Car extends Transport {
                 ", регистрационный номер:" + regNumber +
                 ", количество мест:" + capacity;
     }
+    @Override
+    public void refill() {
+        System.out.println("Заправлять бензином, дизелем на заправке или заряжать на специальных электропарковках, если это электрокар");
+    }
 }
 

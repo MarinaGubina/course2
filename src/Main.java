@@ -16,10 +16,16 @@ public class Main {
         Car car5 = new Car("Hyundai","Avante",1.6,"оранжевый",
                 2016,"Южная Корея","АКПП","седан","Y789UU123",5,140);
         System.out.println(car1);
+        car1.refill();
         System.out.println(car2);
+        car2.refill();
         System.out.println(car3);
+        car3.refill();
         System.out.println(car4);
+        car4.refill();
         System.out.println(car5);
+        car5.refill();
+        System.out.println();
 
         Train train1 = new Train("Ласточка","B-901",2011,"Россия",
                 null,301,3500,null, "Белорусский вокзал",
@@ -28,7 +34,10 @@ public class Main {
                 null,270,1700,null, "Ленинградский вокзал",
                 "станция Ленинград-Пассажирский", 8);
         System.out.println(train1);
+        train1.refill();
         System.out.println(train2);
+        train2.refill();
+        System.out.println();
 
         Bus bus1 = new Bus("KIA","F-32",2015,"Южная Корея",
                 "желтый",100);
@@ -37,8 +46,11 @@ public class Main {
         Bus bus3 = new Bus("MAN","Lions's City",2017,"Германия",
                 "голубой",120);
         System.out.println(bus1);
+        bus1.refill();
         System.out.println(bus2);
+        bus2.refill();
         System.out.println(bus3);
+        bus3.refill();
     }
 
 
